@@ -30,12 +30,10 @@ export class CountdownTimerComponent implements OnInit {
       this.interval = setInterval(this.minusOneSec.bind(this), 1000);
   }
 
-
   private minusOneSec(): void {
     this.remainingTime--;
     if (this.remainingTime <= 0) this.remainingTime = 0;
   };
-
 
   // because this doesn't refer to your original object in your callback when you invoke it that way. --
   // if you want this to work, you can declare your function as a lambda, like this:
