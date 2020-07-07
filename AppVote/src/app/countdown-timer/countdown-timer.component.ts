@@ -41,7 +41,9 @@ export class CountdownTimerComponent implements OnInit {
   // just like a regular method (even make it public), and then this will work correctly
   stopTimer() {
     if (this.interval) {
+      console.log(this.interval)
       clearInterval(this.interval);
+      console.log(this.interval)
       this.interval = false;
     }
   }
