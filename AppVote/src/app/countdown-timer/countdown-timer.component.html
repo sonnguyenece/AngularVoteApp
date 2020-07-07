@@ -1,0 +1,13 @@
+<div style="margin-bottom:10px">
+  <button (click)="startTimer()">Start</button>
+  <button (click)="stopTimer()">Stop</button>
+  <button (click)="resetTimer()">Reset</button>
+</div>
+<div>
+<span style="color: white;background: red;padding: 10px">{{remainingTime}}
+</span>
+</div>
+<div style="margin-top: 10px">
+  T-{{remainingTime}} seconds and counting
+</div>
+<hr>
