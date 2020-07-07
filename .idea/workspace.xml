@@ -20,7 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d1d9275-b517-411a-8e5a-d39bebd04c6e" name="Default Changelist" comment="fixed whitespace">
-      <change beforePath="$PROJECT_DIR$/AppVote/src/app/countdown-timer/countdown-timer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/countdown-timer/countdown-timer.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1594134633708</updated>
       <workItem from="1594134640092" duration="38000" />
-      <workItem from="1594138943184" duration="7126000" />
+      <workItem from="1594138943184" duration="8959000" />
     </task>
     <task id="LOCAL-00001" summary="add timer function">
       <created>1594146036009</created>
@@ -114,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594146261465</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fixed whitespace">
+      <created>1594146475468</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594146475468</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

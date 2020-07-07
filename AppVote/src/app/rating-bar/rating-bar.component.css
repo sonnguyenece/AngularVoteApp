@@ -1,0 +1,10 @@
+.voteBar {
+  color: white;
+  background: red;
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.voteBar:hover{
+  background: green;
+}
