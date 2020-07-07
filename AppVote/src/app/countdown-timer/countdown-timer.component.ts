@@ -20,25 +20,18 @@ export class CountdownTimerComponent implements OnInit {
     this.remainingTime = this.startTime;
   }
 
-
-  private minusOneSec() {
-    this.remainingTime--;
-    if (this.remainingTime <= 0) this.remainingTime = 0;
-  }
-
   resetTimer() {
     this.stopTimer();
     this.remainingTime = this.startTime;
   }
 
-
   startTimer() {
     if (!this.interval)
-      this.interval = setInterval(this.printMsg.bind(this), 1000);
+      this.interval = setInterval(this.minusOneSec.bind(this), 1000);
   }
 
 
-  private printMsg(): void {
+  private minusOneSec(): void {
     this.remainingTime--;
     if (this.remainingTime <= 0) this.remainingTime = 0;
   };
