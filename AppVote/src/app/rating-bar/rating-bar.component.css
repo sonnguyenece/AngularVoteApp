@@ -5,6 +5,13 @@
   margin-right: 5px;
 }
 
-.voteBar:hover{
+/*.voteBar:hover{*/
+/*  background: green;*/
+/*}*/
+
+.voteBarHover{
+  color: white;
   background: green;
+  padding: 10px;
+  margin-right: 5px;
 }

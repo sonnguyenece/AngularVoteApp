@@ -19,14 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d1d9275-b517-411a-8e5a-d39bebd04c6e" name="Default Changelist" comment="fixed whitespace">
-      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.ts" afterDir="false" />
+    <list default="true" id="6d1d9275-b517-411a-8e5a-d39bebd04c6e" name="Default Changelist" comment="rating bar init">
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating/rating.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating/rating.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating/rating.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppVote/src/app/rating/rating.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppVote/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/app.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AppVote/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/countdown-timer/countdown-timer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/countdown-timer/countdown-timer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/AppVote/src/app/rating-bar/rating-bar.component.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +93,8 @@
       <option name="presentableId" value="Default" />
       <updated>1594134633708</updated>
       <workItem from="1594134640092" duration="38000" />
-      <workItem from="1594138943184" duration="8959000" />
+      <workItem from="1594138943184" duration="9271000" />
+      <workItem from="1594171143188" duration="6011000" />
     </task>
     <task id="LOCAL-00001" summary="add timer function">
       <created>1594146036009</created>
@@ -127,7 +131,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594146475468</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="rating bar init">
+      <created>1594148606396</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594148606396</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,34 +154,40 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add timer function" />
     <MESSAGE value="fixed whitespace" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed whitespace" />
+    <MESSAGE value="rating bar init" />
+    <option name="LAST_COMMIT_MESSAGE" value="rating bar init" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1594140125981">
+    <state x="654" y="295" key="#Notifications" timestamp="1594172361258">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594140125981" />
-    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1594140125981">
+    <state x="654" y="295" key="#Notifications/0.0.1536.864@0.0.1536.864" timestamp="1594172361258" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1594171430736">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594140125981" />
-    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1594140125981">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1594171430736" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1594171430736">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594140125981" />
-    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1594140125981">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1594171430736" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1594171430735">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594140125981" />
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594146264720">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1594171430735" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1594171430736">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594146264720" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1594171430736" />
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2" timestamp="1594148608257">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="361" y="165" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1594148608257" />
     <state x="425" y="197" key="run.anything.popup" timestamp="1594142667338">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

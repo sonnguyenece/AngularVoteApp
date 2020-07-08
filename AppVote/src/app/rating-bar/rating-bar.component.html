@@ -1,4 +1,9 @@
 <div>
-  <span class="voteBar" *ngFor="let rate of ratings" (mouseover)="changeColor(rate)">{{rate}}</span>
+<span *ngFor="let rate of ratings" (mouseover)="changeColor(rate)" (mouseout)="whenMouseOut()" (click)="onClick(rate)">
 
+  <i *ngIf="rate<=ratingIndex; else elseBlock"><app-rating [rating]="rate" class="voteBarHover"></app-rating></i>
+
+<ng-template #elseBlock>  <app-rating [rating]="rate" class="voteBar"></app-rating></ng-template>
+
+</span>
 </div>
